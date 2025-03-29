@@ -3,7 +3,7 @@ export const personalInfo = {
   location: "Brazzaville, Congo",
   email: "jovymonka7@gmail.com",
   github: "https://github.com/jovyzabel",
-  linkedin: "https://www.linkedin.com/in/jovymonka/",
+  linkedin: "https://www.linkedin.com/in/jovy-monka-288806214/",
 };
 
 export const workExperience = [
