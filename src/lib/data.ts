@@ -150,6 +150,15 @@ export const projects = [
     ],
   }, 
   {
+    title: "Roman numeral converter",
+    github: "https://github.com/jovyzabel/roman-numeral-converter/",
+    description: [
+      "A roman numeral converter",
+      "Built with Js from scratch",
+      "A freeCodeCamp project",
+    ],
+  },
+  {
     title: "Pokémon search app",
     github: "https://github.com/jovyzabel/Knights-pokemon-App",
     description: [
