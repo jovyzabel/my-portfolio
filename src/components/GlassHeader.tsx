@@ -18,16 +18,16 @@ export default function GlassHeader() {
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
-          ✨ {personalInfo.name}
+          ✨ {personalInfo.brandName}
         </motion.a>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
-          {["experience", "skills", "projects", "Certifications", "education"].map(
+          {["experience", "skills", "projects", "certifications", "education", "cv"].map(
             (item, index) => (
               <motion.a
                 key={item}
-                href={`#${item}`}
+                href={item ==="cv"? "cv.pdf" : `#${item}`}
                 className="transition-colors hover:text-foreground/80 text-foreground/60"
                 initial={{ opacity: 0, y: -10 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -37,8 +37,9 @@ export default function GlassHeader() {
                 {item === "experience" && "💼 "}
                 {item === "skills" && "🛠️ "}
                 {item === "projects" && "🚀 "}
-                {item === "Certifications" && "🏆 "}
+                {item === "certifications" && "🏆"}
                 {item === "education" && "🎓 "}
+                {item === "cv" && "📃 "}
                 {item.charAt(0).toUpperCase() + item.slice(1)}
               </motion.a>
             )
@@ -71,11 +72,11 @@ export default function GlassHeader() {
             transition={{ duration: 0.3 }}
           >
             <nav className="flex flex-col space-y-4 text-sm font-medium">
-              {["experience", "skills", "projects", "awards", "education"].map(
+              {["experience", "skills", "projects", "awards", "education", "cv"].map(
                 (item, index) => (
                   <motion.a
                     key={item}
-                    href={`#${item}`}
+                    href={item ==="cv"? "cv.pdf" : `#${item}`}
                     className="transition-colors hover:text-foreground/80 text-foreground/60 py-2"
                     onClick={toggleMenu}
                     initial={{ opacity: 0, x: -20 }}
@@ -87,6 +88,7 @@ export default function GlassHeader() {
                     {item === "projects" && "🚀 "}
                     {item === "awards" && "🏆 "}
                     {item === "education" && "🎓 "}
+                    {item === "cv" && "📃 "}
                     {item.charAt(0).toUpperCase() + item.slice(1)}
                   </motion.a>
                 )

@@ -1,5 +1,6 @@
 export const personalInfo = {
   name: "Jovy Nedved Monka - K",
+  brandName: "Jovy Monka",
   location: "Brazzaville, Congo",
   email: "jovymonka7@gmail.com",
   github: "https://github.com/jovyzabel",
@@ -31,15 +32,19 @@ export const workExperience = [
     achievements: [
       "Work as a IT service provider for the company.",
       "Ensure security of data and network access",
+      "Ensure document formatting ",
+      "Ensure installation and configuration of computer systems",
     ],
   },
   {
     company: "PressiRessort",
-    location: "Remote",
-    position: "Web Developer Intern",
+    location: "Remote Marseille, France",
+    position: "Web Developer (Symfony 6) Intern.",
     period: "Dec 2021 - Mar 2022",
     achievements: [
-      "Built An app for Buying torsion spring and tension spring",
+      "Worked on the development of a web application for managing the sales of springs.",
+      "Developed a custom admin panel for managing product listings, orders, and user accounts.",
+      "Implemented a user-friendly interface for customers to browse and purchase springs online.",
     ],
   },
 ];
