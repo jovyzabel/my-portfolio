@@ -10,7 +10,7 @@ export const personalInfo = {
 
 export const workExperience = [
   {
-    company: "Gad, Digital",
+    company: "Gad Digital",
     location: "Brazzaville, Congo",
     position: "Java Developer",
     period: "sept 2025 - Today",
@@ -146,13 +146,17 @@ export const skills = {
 
 export const projects = [
   {
+    title: "EMA",
+    github: "https://github.com/yolserve/ema-congo",
+    description: ["African School for Math.", "Built with Astro"],
+  },
+  {
     title: "Snapface",
     github: "https://github.com/jovyzabel/snapface",
     description: [
       "An web app for sharing photos with friends and family.",
       "Built with Angular 18",
       "Usage of standalone components",
-
     ],
   },
   {
@@ -161,11 +165,6 @@ export const projects = [
     description: [
       "A simple todo list app.",
       "Built with JavaScript, HTML, and CSS.",
-      // "A holistic mental health app leveraging AI and blockchain for early detection and personalized solutions for depression.",
-      // "Features include social media analysis (ML-based sentiment tracking), PHQ-9 assessments, smartwatch integration for sleep and activity data, guided meditation, and smart suggestions for food, travel, music, and movies.",
-      // "Developed a rewards system using MAG crypto token on Ethereum, enabling user engagement through in-app incentives.",
-      // "Secure storage implemented via web3.storage, IPFS, and FileCoin.",
-      // "Built with React, Supabase, Node.js, Flask, and Solidity, showcasing seamless integration of health tech and blockchain.",
     ],
   },
   {
@@ -176,7 +175,7 @@ export const projects = [
       "Built with Angular 18",
       "Usage of standalone components",
     ],
-  }, 
+  },
   {
     title: "Roman numeral converter",
     github: "https://github.com/jovyzabel/roman-numeral-converter/",
