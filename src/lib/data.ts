@@ -1,27 +1,57 @@
 export const personalInfo = {
-  name: "Jovy Nedved Monka - K",
+  name: "Jovy Nedved Monka - Kanda",
   brandName: "Jovy Monka",
   location: "Brazzaville, Congo",
   email: "jovymonka7@gmail.com",
   github: "https://github.com/jovyzabel",
   linkedin: "https://www.linkedin.com/in/jovy-monka-288806214/",
+  x: "https://www.x.com/jovynedved",
 };
 
 export const workExperience = [
   {
-    company: "FST, UMNG",
+    company: "Gad, Digital",
+    location: "Brazzaville, Congo",
+    position: "Java Developer",
+    period: "sept 2025 - Today",
+    achievements: [
+      "Development of backend with java for different kind of project",
+      "API Documentation",
+    ],
+  },
+  {
+    company: "Ensitech",
+    location: "Remote Lyon, France",
+    position: "Web Developer, PO, SM",
+    period: "June 2025 - Oct 2024",
+    achievements: [
+      "Development of an application for managing the schooling and teaching of Ensitech",
+      "Design of Diagrams with UML",
+      "Analysis of client requirements",
+    ],
+  },
+  {
+    company: "ECOLE MATHEMATIQUE AFRICAINE",
+    location: "Brazzaville, Congo",
+    position: "Analyst, Web Developer",
+    period: "Dec 2024 - July 2025",
+    achievements: [
+      "Analyze of client need",
+      "Development of web platform for managing Candidates",
+      "maintenance of the platform",
+    ],
+  },
+  ,
+  {
+    company: "FST, UMNG, AFD",
     location: "Brazzaville, Congo",
     position: "Web Developer",
-    period: "Nov 2022 - June 2024",
+    period: "Nov 2022 - Dec 2024",
     achievements: [
       "Development of an application for managing the schooling and teaching of the the Faculty of Science and Technology at Marien Ngouabi University as part of the AMES project, financed by AFD.",
-      // "Designed and implemented business logic for AWS Lambdas using the Serverless Framework, forming the backbone of the application's functionality and ensuring seamless backend operations.",
-      // "Built a comprehensive admin panel for managing content, user data, and analytics.",
-      // "Contributed to the development and integration of a scalable CMS for managing blog content and other platform data.",
-      // "Reduced database costs by introducing materialized views, optimizing query performance and resource usage.",
-      // "Drove the integration of a custom affiliate marketing system, enabling seamless tracking and reporting of referrals and user activities.",
-      // "Integrated Text-to-Speech (TTS) services for enhanced user experiences, optimizing both frontend and backend systems.",
-      // "Collaborated with cross-functional teams to deliver high-quality features, actively reviewing pull requests to ensure code quality, adherence to standards, and efficient implementation.",
+      "Design of Diagrams with UML",
+      "Analysis of client requirements",
+      "maintenance of the platform",
     ],
   },
   {
@@ -96,24 +126,21 @@ export const skills = {
     "Sql",
   ],
   frontendDevelopment: [
-    "Angular 16+",
+    "Angular",
+    "Next.js",
     "Bootstrap CSS",
+    "Tailwind CSS",
     "HTML",
     "CSS",
+
   ],
-  backendDevelopment: ["Symfony 6+"],
-  databaseAndStorage: ["MySQL", "Doctrine (ORM)"],
-  cloudAndDevOps: ["Docker", "Git"],
+  backendDevelopment: ["Symfony 6+", "Spring Boot", "Node.js", "Express.js"],
+  databaseAndStorage: ["MySQL", "PostgreSQL", "Doctrine", "Prisma"],
+  cloudAndDevOps: ["Docker", "Git","GitHub","GitLab", "Gitlab-ci"],
   toolsAndServices: [
     "Ngrok",
     "Jira",
-    // "Clerk (Auth)",
-    // "Sanity (CMS)",
-    // "Tinybird (analytics)",
-    // "Zod",
-    // "Sentry",
-    // "Mixpanel",
-    // "Trigger.dev",
+    
   ],
 };
 
@@ -125,11 +152,7 @@ export const projects = [
       "An web app for sharing photos with friends and family.",
       "Built with Angular 18",
       "Usage of standalone components",
-      // "WiFi-RTT: Developed indoor occupancy tracking for energy optimization.",
-      // "IoT Solutions: Implemented smart monitoring for energy efficiency and food waste reduction.",
-      // "Real-Time Tracking: Designed systems to monitor carbon emissions and optimize resources.",
-      // "Data-Driven Insights: Analyzed user patterns for adaptive energy and food management.",
-      // "Reward Integration: Built QR-based green points system to incentivize eco-friendly actions.",
+
     ],
   },
   {
