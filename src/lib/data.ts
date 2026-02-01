@@ -16,7 +16,10 @@ export const workExperience = [
     period: "sept 2025 - Today",
     achievements: [
       "Development of backend with java for different kind of project",
+      "Creation of unit tests",
       "API Documentation",
+      "Creation of tickets on Jira",
+      "Creation of user stories",
     ],
   },
   {
@@ -28,6 +31,8 @@ export const workExperience = [
       "Development of an application for managing the schooling and teaching of Ensitech",
       "Design of Diagrams with UML",
       "Analysis of client requirements",
+      "Creation of user stories and management of the product backlog as a Product Owner",
+      "Supervision of the development team and facilitation of Scrum ceremonies as a Scrum Master",
     ],
   },
   {
@@ -36,7 +41,7 @@ export const workExperience = [
     position: "Analyst, Web Developer",
     period: "Dec 2024 - July 2025",
     achievements: [
-      "Analyze of client need",
+      "Analysis of client requirements",
       "Development of web platform for managing Candidates",
       "maintenance of the platform",
     ],
@@ -55,12 +60,12 @@ export const workExperience = [
     ],
   },
   {
-    company: "S2DEC",
+    company: "S2DEC, Environmental Agency of Congo",
     location: "Brazzaville, Congo",
     position: "IT Support Specialist",
     period: "2023 - 2024",
     achievements: [
-      "Work as a IT service provider for the company.",
+      "Work as a IT service provider for the companies.",
       "Ensure security of data and network access",
       "Ensure document formatting ",
       "Ensure installation and configuration of computer systems",
@@ -72,9 +77,11 @@ export const workExperience = [
     position: "Web Developer (Symfony 6) Intern.",
     period: "Dec 2021 - Mar 2022",
     achievements: [
-      "Worked on the development of a web application for managing the sales of springs.",
-      "Developed a custom admin panel for managing product listings, orders, and user accounts.",
-      "Implemented a user-friendly interface for customers to browse and purchase springs online.",
+      "Development of a web application for managing the sales of springs.",
+      "Development of a custom admin panel for managing product listings, orders, and user accounts.",
+      "Implementation of a user-friendly interface for customers to browse and purchase springs online.",
+      "Design of the UI/UX of the application.",
+      "Design of UML diagrams for the application.",
     ],
   },
 ];
@@ -83,38 +90,30 @@ export const education = [
   {
     institution: "OBJIS",
     location: "Remote, Lyon, France",
-    degree: "Training in Java And Angular",
+    degree: "IT Systems Designer - Fullstack Developer Java And Angular",
     period: "Jan 2024 - Aug 2025",
-    achievements: [
-      "Front end applications development",   
-    ],
+    achievements: ["Front end applications development"],
   },
   {
     institution: "Akieni Academy",
     location: "Brazzaville, Congo",
     degree: "Js Fullstack Developer",
     period: "Nov 2024 - Jun 2025",
-    achievements: [
-      "Front end applications development",   
-    ],
+    achievements: ["Front end applications development"],
   },
   {
     institution: "Faculty of Science - MARIEN NGOUABI University",
     location: "Brazzaville, Congo",
     degree: "B Computer Science",
     period: "Jun 2019 - Jun 2021",
-    achievements: [
-      "Team leader for classworks",   
-    ],
+    achievements: ["Team leader for classworks"],
   },
   {
     institution: "EAMAC - African Civil Aviation and Meteorological School",
     location: "Niamey, Niger",
     degree: "Superior Technician in Telecommunications exploitation",
     period: "Jun 2017 - Jun 2019",
-    achievements: [
-      "Captain of a class football team",   
-    ],
+    achievements: ["Captain of a class football team"],
   },
 ];
 export const skills = {
@@ -146,9 +145,19 @@ export const skills = {
 
 export const projects = [
   {
+    title: "Ensitech",
+    github: "https://github.com/sidonieGit/ensitech-spring-microservice",
+    description: ["School management platform"],
+  },
+  {
     title: "EMA",
     github: "https://github.com/yolserve/ema-congo",
     description: ["African School for Math.", "Built with Astro"],
+  },
+  {
+    title: "FST management platform",
+    github: "https://github.com/yolserve/ames-fst",
+    description: ["Management platform for FST.", "AMES Project"],
   },
   {
     title: "Snapface",
